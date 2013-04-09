@@ -1,0 +1,35 @@
+Mentat is a data-driven agent-based social simulation, modelling the postmodernization process in Spain.
+
+This software project was the base of this PhD thesis (Jan 2010):
+http://samer.hassan.name/files/Thesis_Mentat.pdf
+Presentation (slides):
+http://samer.hassan.name/files/phddefense-presentation.pdf
+You can find more info on this work on:
+http://samer.hassan.name/index.php/phd-thesis/
+
+* Technical details:
+- Programmed in Java, with framework Repast 3
+- Artificial Intelligence techniques implemented: Software Agents, Fuzzy Logic, Natural Language Processing
+- Other technologies: Microsimulation, Social Networks
+- Data sources: European Values Study 1980, 1990, 2000 and Spanish Census 1980
+- Sociological hypothesis supported: Inglehart's theories on Modernization and Postmodernization
+
+* Keywords
+agent-based model, data-driven modelling, demography, friendship, fuzzy logic, microsimulation, social network, social values, social simulation, surveys.
+
+* Abstract
+In the lasts decades, computer simulation in general, and agent based modelling (ABM) in particular, has become one of the mainstream modelling techniques in many scientific fields, especially in Social Sciences such as Sociology or Economics. Social simulation allows the study of the complexity inherent to social phenomena and it is attracting multidisciplinary research teams in order to manage this complexity.
+
+There are different methodologies for ABM that, after compiling experience in processes, methods and tools, attempt to provide a systematic way to tackle new problems. Both the Multi-Agent Systems field and ABM have tried to provide robust methodologies to guide researchers in the modelling process.
+
+However, there is an important epistemological distinction among agent-based models that these methodologies do not consider. Models can be classified depending on their research aim, and this classification can have methodological implications. Sometimes researchers seek a generic model to explain a social phenomena from a high degree of abstraction, and one that is simple enough to be used as an illustration of a specific theory or hypothesis. On the other hand, researchers may prefer to focus on the expressiveness of the model, together with the empirical descriptiveness of a specific case study. The first case corresponds to Theoretical Research, while the second one would be Data-driven Research.
+
+Nowadays, most of the models are conceived from the theoretical approach, and thus methodologies are frequently biased towards them. However, without disregarding the role of theory, models can also seek expressiveness. In order to do that, they may have needs that are not met in general methodologies. For instance, issues such as the empirical initialisation, the limitations of data collection, the throughout empirical validation or the role of data in the design are not usually considered in those methodologies. Thus, there is a lack of a complete ABM methodology that, assuming data-driven research has a different approach and aims, provides a specific flow of data-driven model development. Such methodology should consider the key role of empirical data throughout all the modelling stages. This lack has caused most data-driven models to be constructed without a common frame.
+
+This work attempts to fill this gap and build a complete methodology to guide data-driven agent-based modelling. Therefore, it can be advocated that when there are available data from the observation of the real phenomenon, the modelling and simulation process involves additional stages. This methodology attempts to guide the injection of empirical data into the simulation, bringing them closer to the real phenomenon under study, while acknowledging the important role of theory in the whole process. Therefore, the approach is complemented with a systematic method for the exploration of the model space in order to achieve comprehensible but descriptive models. Such a method was coined `Deepening KISS’, as it is exposed in the methodological chapter.
+
+This methodology is supported technically by the specification and implementation of a social agent framework. Such framework is structured in modules which can be enabled at will in order to facilitate the exploration of the model space and its incremental construction, both in the frame of the data-driven approach. Instead of attempting to build a general-purpose framework, this agent framework focuses on a family of problems which can be best tackled within it.
+
+Moreover, an in-depth case study was developed to test and validate the application of the methodology and proposed framework. This case study addresses the complex issue of social values evolution, together with the friendship emergence and the demographic dynamics involved.
+
+The construction of this agent-based model, coined Mentat, can be summarised in a series of key milestones. The proposed data-driven methodology is applied intensively through the course of its development. The modelling process has been realised as (a) bottom-up and (b) top-down. (a) is represented by the social network arising from the micro behaviour and friendship dynamics. (b) relies on the elaborated demographic model. The conceptualisation and specification of (a) and (b) has been justified theoretically in order to support its development. They have been implemented within the modular agent framework, designed in incremental layers. Mentat features are structured in modules which can be enabled or disabled in order to explore the model space following the stages defined in the methodology. The model is validated from a quantitative macro perspective (empirical validation), from a qualitative micro perspective (social dynamics matching the theoretical assumptions) and from a theoretical perspective (discussing its sociological consistency). Different techniques of Artificial Intelligence are applied and combined in the model, testing the framework adaptability and their use for social simulation. Mentat serves as a case study of the methodology and framework, but it also provides some sociological insight of the problem under study, by giving new support to specific theories. The ABM specifically stresses the key significance of demographic dynamics in the case study: the evolution of social values in Spain during the end of 20th Century. This implies that intergenerational changes are considerably more important than intragenerational ones in this Spanish context, and supports Inglehart’s theories of values evolution.
